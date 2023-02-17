@@ -1,0 +1,107 @@
+.sustainability {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sus-text {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.sus-text__secondary {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #0a0a0a;
+}
+
+.sus-text__primary {
+  font-size: 110px;
+  font-weight: 700;
+  color: #0a0a0a1a;
+}
+
+.sus-img {
+  position: relative;
+}
+
+.sus-img::after {
+  position: absolute;
+  content: "";
+  border-right: 1px solid #ababab;
+  height: 100px;
+  bottom: -94px;
+  right: 50%;
+}
+
+.sus-img__text {
+  position: absolute;
+  bottom: 25%;
+  right: 11%;
+  color: #fff;
+  font-size: 43px;
+  text-align: right;
+  line-height: 1;
+}
+
+.head {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.by-willow {
+  font-size: 32px;
+}
+
+.knotwashed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.knotwashed-logo {
+  width: 240px;
+  margin-bottom: 50px;
+}
+
+.knotwashed-product {
+  width: 600px;
+}
+
+.knotwashed-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.knotwashed-text__header {
+  font-size: 30px;
+}
+
+.knotwashed-text > p {
+  font-size: 14px;
+  color: #999;
+  width: 30%;
+  line-height: 2.1;
+  word-wrap: break-word;
+  margin-bottom: 30px;
+}
+
+.knotwashed-text > h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.btn {
+  text-decoration: none;
+  margin-bottom: 100px;
+}

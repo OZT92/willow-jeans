@@ -1,0 +1,117 @@
+.videoBg {
+  width: 100%;
+  height: 940px;
+  position: relative;
+  margin-top: 70px;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoBg > h1 {
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  font-size: 62px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1.2;
+  letter-spacing: -2.3px;
+  width: 40%;
+  color: #fff;
+}
+
+.videoBg > p {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  bottom: 59%;
+  right: 14.3%;
+}
+
+.videoBg > p > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .videoBg {
+    height: 600px;
+  }
+
+  .videoBg > h1 {
+    top: 22%;
+    left: 19%;
+    font-size: 40px;
+  }
+
+  .videoBg > p {
+    bottom: 62%;
+    right: 3%;
+  }
+  .videoBg > p > a {
+    font-size: 8px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .videoBg {
+    height: 470px;
+  }
+
+  .videoBg > h1 {
+    font-size: 32px;
+  }
+
+  .videoBg > p {
+    bottom: 62%;
+    right: 3%;
+  }
+  .videoBg > p > a {
+    font-size: 7px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .videoBg {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .videoBg {
+    height: 280px;
+    margin-top: 55px;
+  }
+
+  .videoBg > h1 {
+    top: 18%;
+    left: 19%;
+    font-size: 20px;
+  }
+
+  .videoBg > p {
+    bottom: 62%;
+    right: 3%;
+  }
+  .videoBg > p > a {
+    font-size: 5px;
+    font-weight: 700;
+  }
+}
