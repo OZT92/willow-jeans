@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import ResponsiveAppBar from "./components/ResponsiveAppBar";
 import SimpleSlider from "./components/SimpleSlider";
 import Sustainability from "./components/Sustainability";
+import HighQuality from "./components/HighQuality";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <SimpleSlider />
       <Sustainability />
+      <HighQuality />
     </div>
   );
 };

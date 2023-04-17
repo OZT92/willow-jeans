@@ -1,0 +1,52 @@
+.first-part {
+  display: flex;
+  width: 100vw;
+}
+.first-half {
+  width: 50vw;
+  position: relative;
+}
+.bg-grey {
+  width: 1200px;
+  height: 536px;
+  background-color: #ececec;
+}
+.fhi {
+  width: 570px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  border: 8px solid #fff;
+}
+
+.second-half {
+  width: 350px;
+  margin-left: 40px;
+}
+
+.second-half > h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-top: 90px;
+  margin-bottom: 35px;
+}
+
+.second-half > p {
+  font-size: 14px;
+  color: #999;
+  line-height: 2;
+  margin-bottom: 120px;
+}
+
+.second-half > a {
+  text-decoration: none;
+  color: #999;
+  transition: all 0.3s;
+}
+
+.second-half > a:hover {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
+}
